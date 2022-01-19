@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage debe de mostrar el componente con la imagen del producto 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Product Image"
+    className="productImg undefined"
+    src="../coffee-mug.png"
+  />
+</div>
+`;
+
+exports[`ProductImage debe demostrar el componente correctamente con la imagen personalizado 1`] = `
+<img
+  alt="Product Image"
+  className="productImg undefined"
+  src="https://holaa8.webnode.es/_files/system_preview_detail_200000018-74223751e5-public/hola.jpg"
+/>
+`;
+
+exports[`ProductTitle debe de mostrar el componente con el nombre del producto 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Product Image"
+    className="productImg undefined"
+    src="../coffee-mug.png"
+  />
+</div>
+`;
+
+exports[`ProductTitle debe demostrar el componente correctamente con el tityulo personalizado 1`] = `
+<img
+  alt="Product Image"
+  className="productImg custom-class"
+  src="https://holaa8.webnode.es/_files/system_preview_detail_200000018-74223751e5-public/hola.jpg"
+/>
+`;
